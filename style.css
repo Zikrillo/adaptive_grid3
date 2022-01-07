@@ -1,0 +1,124 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(218, 235, 255);
+    color: rgb(14, 19, 26);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+    
+
+.border{
+    width: 200px;
+    height: 300px;
+    display: inline-flex;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    margin: 10px;
+    box-shadow: 5px 5px 25px 0px rgba(42, 42, 42, 0.103);
+
+}
+.main{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    justify-content:start;
+    margin-top: 90px;
+    
+    /* 240px */
+}
+.header{
+    color: rgb(0, 33, 83);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+.maintext{
+    color: rgb(20, 11, 11);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.nav{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 5px 5px 25px 0px rgba(42, 42, 42, 0.103);;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+}
+button{
+    background-color:rgb(18, 82, 161);
+    border-style: none;
+    font-size: 15px;
+    width: 180px;
+    color: white;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+.score{
+    font-size: 50px;
+}
+.blur{
+    filter: blur(20px);
+    transition: 100ms;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+.module{
+    border-color: rgb(154, 174, 255);
+    position: absolute;
+    z-index: 111;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    color:rgb(6, 29, 42);
+    width: 200px;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    position: fixed;
+    z-index: 2222;
+    box-shadow: 5px 5px 25px 0px rgba(7, 5, 5, 0.411);
+    
+    
+}
+.dn{
+    display: none;
+}
+.calc{
+    margin-right: 20px;
+}
+.nav_items h5{
+    margin-left: 20px;
+}
+.list_items{
+    display: flex;
+    /* background-color: white;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px; */
+    justify-content: space-between;
+}
